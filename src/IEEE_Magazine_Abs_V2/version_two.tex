@@ -1,0 +1,46 @@
+\documentclass{IEEEcsmag}
+
+\usepackage[colorlinks,urlcolor=blue,linkcolor=blue,citecolor=blue]{hyperref}
+\expandafter\def\expandafter\UrlBreaks\expandafter{\UrlBreaks\do\/\do\*\do\-\do\~\do\'\do\"\do\-}
+\usepackage{upmath,color}
+
+
+\jvol{XX}
+\jnum{XX}
+\paper{8}
+\jmonth{Month}
+\jname{Publication Name}
+\jtitle{Publication Title}
+\pubyear{2021}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+
+
+\setcounter{secnumdepth}{0}
+
+\begin{document}
+
+\sptitle{Article Type: Description  (see below for more detail)}
+
+\title{Title: An Empirical Study on Static Analyzer Toolsets to Reduce False Positives, False Negatives in Python Type Checkers}
+
+\author{Benedek Kaibas}
+\affil{Allegheny College, PA, 16335, USA}
+
+\author{Dr. Gregory M. Kapfhammer}
+\affil{Allegheny College, PA, 16335, USA}
+
+\markboth{THEME/FEATURE/DEPARTMENT}{THEME/FEATURE/DEPARTMENT}
+
+\begin{abstract}\looseness-1Python’s massive scale relies on static type checkers like Mypy to prevent crashes. Yet, verifying these tools remains a slow, manual bottleneck. Who checks the checkers? We introduce Pytifex, a system where AI agents automate this oversight. Unlike random 'fuzzing' tools, our agents analyze historical bug reports to learn specific structural weaknesses. They then generate new, deceptive code examples that trick the latest tool versions into reporting false errors. This exposes hidden flaws standard tests miss. We argue that this AI-driven adversarial testing is critical to ensuring the safety nets of modern software remain reliable.
+\end{abstract}
+
+\maketitle
+
+
+
+
+\end{document}
+
+
