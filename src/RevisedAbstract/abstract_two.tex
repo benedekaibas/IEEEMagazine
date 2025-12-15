@@ -1,0 +1,44 @@
+\documentclass{IEEEcsmag}
+
+\usepackage[colorlinks,urlcolor=blue,linkcolor=blue,citecolor=blue]{hyperref}
+\expandafter\def\expandafter\UrlBreaks\expandafter{\UrlBreaks\do\/\do\*\do\-\do\~\do\'\do\"\do\-}
+\usepackage{upmath,color}
+
+
+\jvol{XX}
+\jnum{XX}
+\paper{8}
+\jmonth{Month}
+\jname{Publication Name}
+\jtitle{Publication Title}
+\pubyear{2021}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+
+
+\setcounter{secnumdepth}{0}
+
+\begin{document}
+
+\sptitle{Article Type: Description  (see below for more detail)}
+
+\title{Title: An Empirical Study on Static Analyzer Toolsets to Reduce False Positives, False Negatives in Python Type Checkers}
+
+\author{Benedek Kaibas}
+\affil{Allegheny College, PA, 16335, USA}
+
+\author{Gregory M. Kapfhammer}
+\affil{Allegheny College, PA, 16335, USA}
+
+\markboth{THEME/FEATURE/DEPARTMENT}{THEME/FEATURE/DEPARTMENT}
+
+\begin{abstract}\looseness-1The surge of conflicting, rapidly evolving type checkers demands urgent verification. As new tools arise and update weekly, their inevitable disagreements create critical reliability gaps. We introduce Pytifex, a method for automated differential testing. Unlike inefficient genetic algorithms requiring thousands of attempts, Pytifex uses LLMs seeded with historical bug reports to efficiently generate code that forces tools to contradict each other. These discrepancies reveal deep logic blind spots. We demonstrate how this proactive generation exposes validity gaps, helping developers evaluate tool strictness and reliability before deployment.
+\end{abstract}
+
+\maketitle
+
+
+
+
+\end{document}
